@@ -136,29 +136,29 @@ a.button {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/resets\/_toadstool\.scss}line{font-family:\00003191}}
 a:link {
-  -webkit-tap-highlight-color: #005ab0; }
+  -webkit-tap-highlight-color: #1718ff; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/resets\/_toadstool\.scss}line{font-family:\00003195}}
 ins {
-  background-color: #efb300;
+  background-color: #fdff00;
   color: black;
   text-decoration: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/resets\/_toadstool\.scss}line{font-family:\00003201}}
 mark {
-  background-color: #efb300;
+  background-color: #fdff00;
   color: black;
   font-style: italic;
   font-weight: bold; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/resets\/_toadstool\.scss}line{font-family:\00003208}}
 ::selection {
-  background: #ffa9ba;
+  background: #fff0f0;
   color: #1a1a1a; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/resets\/_toadstool\.scss}line{font-family:\00003213}}
 ::-moz-selection {
-  background: #ffa9ba;
+  background: #fff0f0;
   color: #1a1a1a; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/typography\/_extends\.scss}line{font-family:\000038}}
@@ -166,7 +166,7 @@ h2, h3, h4, label, #login-area input, #login-area label, h5, h6, h1 {
   font-size: 3.28571em;
   line-height: 1.36957em;
   margin-bottom: 0.45652em;
-  color: #424b42;
+  color: #ff7800;
   font-weight: normal;
   font-family: "Helvetica Neue", Arial, sans-serif; }
 
@@ -211,34 +211,34 @@ input[disabled], textarea[disabled], select[disabled], .disabled {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/forms\/_extends\.scss}line{font-family:\0000337}}
 .fail {
-  border-color: #cb0029 !important;
-  color: #cb0029 !important; }
+  border-color: #f91212 !important;
+  color: #f91212 !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/forms\/_mixins\.scss}line{font-family:\0000330}}
   input .fail {
-    background: #ffdde4; }
+    background: #fee5e5; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/forms\/_mixins\.scss}line{font-family:\0000333}}
   .fail:focus {
-    background: #ffdde4 !important; }
+    background: #fee5e5 !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/forms\/_mixins\.scss}line{font-family:\0000336}}
   .fail label {
-    color: #cb0029 !important; }
+    color: #f91212 !important; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/forms\/_mixins\.scss}line{font-family:\0000339}}
   .fail select, .fail input[type="text"], .fail input[type="date"], .fail input[type="password"] {
-    background: #ffdde4;
-    border-color: #cb0029;
-    color: #cb0029; }
+    background: #fee5e5;
+    border-color: #f91212;
+    color: #f91212; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/stipe\/_mixins\.scss}line{font-family:\0000386}}
     .fail select::-webkit-input-placeholder, .fail input[type="text"]::-webkit-input-placeholder, .fail input[type="date"]::-webkit-input-placeholder, .fail input[type="password"]::-webkit-input-placeholder {
-      color: #cb0029; }
+      color: #f91212; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/stipe\/_mixins\.scss}line{font-family:\0000389}}
     .fail select:-moz-placeholder, .fail input[type="text"]:-moz-placeholder, .fail input[type="date"]:-moz-placeholder, .fail input[type="password"]:-moz-placeholder {
-      color: #cb0029; }
+      color: #f91212; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/stipe\/_mixins\.scss}line{font-family:\0000392}}
     .fail select:-ms-input-placeholder, .fail input[type="text"]:-ms-input-placeholder, .fail input[type="date"]:-ms-input-placeholder, .fail input[type="password"]:-ms-input-placeholder {
-      color: #cb0029; }
+      color: #f91212; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/forms\/_mixins\.scss}line{font-family:\0000344}}
     .fail select:focus, .fail input[type="text"]:focus, .fail input[type="date"]:focus, .fail input[type="password"]:focus {
-      background: #ffdde4; }
+      background: #fee5e5; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/forms\/_extends\.scss}line{font-family:\0000347}}
 .instructional {
@@ -252,9 +252,9 @@ input[disabled], textarea[disabled], select[disabled], .disabled {
   font-weight: bold;
   -webkit-border-radius: 0.21429em;
   border-radius: 0.21429em;
-  border: 1px solid #cb0029;
+  border: 1px solid #f91212;
   padding-left: 0.85714em;
-  background: #a90022;
+  background: #ea0606;
   color: white;
   margin-top: 0.85714em; }
 
@@ -280,14 +280,14 @@ b:after {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/typography\/_default\.scss}line{font-family:\0000357}}
 a:link {
-  color: #899789;
+  color: #ffae66;
   text-decoration: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/typography\/_default\.scss}line{font-family:\0000361}}
 a:hover, a:active {
   text-decoration: underline; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/typography\/_default\.scss}line{font-family:\0000364}}
 a:visited {
-  color: #899789; }
+  color: #ffae66; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/typography\/_extends\.scss}line{font-family:\0000315}}
 h2 {
@@ -318,15 +318,15 @@ label {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_extends\.scss}line{font-family:\000034}}
 button, a.button {
-  background-color: #2092ff;
+  background-color: #6465ff;
   *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF2092FF', endColorstr='#FF2092FF');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2092ff), color-stop(75%, #2092ff));
-  background-image: -webkit-linear-gradient(top, #2092ff 0%, #2092ff 75%);
-  background-image: -moz-linear-gradient(top, #2092ff 0%, #2092ff 75%);
-  background-image: -o-linear-gradient(top, #2092ff 0%, #2092ff 75%);
-  background-image: linear-gradient(top, #2092ff 0%, #2092ff 75%);
-  border: 1px solid #006cd3;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF6465FF', endColorstr='#FF6465FF');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6465ff), color-stop(75%, #6465ff));
+  background-image: -webkit-linear-gradient(top, #6465ff 0%, #6465ff 75%);
+  background-image: -moz-linear-gradient(top, #6465ff 0%, #6465ff 75%);
+  background-image: -o-linear-gradient(top, #6465ff 0%, #6465ff 75%);
+  background-image: linear-gradient(top, #6465ff 0%, #6465ff 75%);
+  border: 1px solid #1819ff;
   color: black;
   line-height: 2.28571em;
   border-radius: 0.14286em;
@@ -337,14 +337,14 @@ button, a.button {
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_mixins\.scss}line{font-family:\0000322}}
   button:hover, a.button:hover {
-    background-color: #2092ff;
+    background-color: #6465ff;
     *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF2092FF', endColorstr='#FF007EF7');
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #2092ff), color-stop(75%, #007ef7));
-    background-image: -webkit-linear-gradient(top, #2092ff 50%, #007ef7 75%);
-    background-image: -moz-linear-gradient(top, #2092ff 50%, #007ef7 75%);
-    background-image: -o-linear-gradient(top, #2092ff 50%, #007ef7 75%);
-    background-image: linear-gradient(top, #2092ff 50%, #007ef7 75%); }
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF6465FF', endColorstr='#FF3B3CFF');
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #6465ff), color-stop(75%, #3b3cff));
+    background-image: -webkit-linear-gradient(top, #6465ff 50%, #3b3cff 75%);
+    background-image: -moz-linear-gradient(top, #6465ff 50%, #3b3cff 75%);
+    background-image: -o-linear-gradient(top, #6465ff 50%, #3b3cff 75%);
+    background-image: linear-gradient(top, #6465ff 50%, #3b3cff 75%); }
   @media screen and (max-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_extends\.scss}line{font-family:\000034}}
     button, a.button {
@@ -358,15 +358,15 @@ button, a.button {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_extends\.scss}line{font-family:\000038}}
 button:nth-child(2), a.button:nth-child(2) {
-  background-color: #ff5813;
+  background-color: #db71d2;
   *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFF5813', endColorstr='#FFFF5813');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff5813), color-stop(75%, #ff5813));
-  background-image: -webkit-linear-gradient(top, #ff5813 0%, #ff5813 75%);
-  background-image: -moz-linear-gradient(top, #ff5813 0%, #ff5813 75%);
-  background-image: -o-linear-gradient(top, #ff5813 0%, #ff5813 75%);
-  background-image: linear-gradient(top, #ff5813 0%, #ff5813 75%);
-  border: 1px solid #c63a00;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDB71D2', endColorstr='#FFDB71D2');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #db71d2), color-stop(75%, #db71d2));
+  background-image: -webkit-linear-gradient(top, #db71d2 0%, #db71d2 75%);
+  background-image: -moz-linear-gradient(top, #db71d2 0%, #db71d2 75%);
+  background-image: -o-linear-gradient(top, #db71d2 0%, #db71d2 75%);
+  background-image: linear-gradient(top, #db71d2 0%, #db71d2 75%);
+  border: 1px solid #cb34bf;
   color: black;
   line-height: 2.28571em;
   border-radius: 0.14286em;
@@ -377,14 +377,14 @@ button:nth-child(2), a.button:nth-child(2) {
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_mixins\.scss}line{font-family:\0000322}}
   button:hover:nth-child(2), a.button:hover:nth-child(2) {
-    background-color: #ff5813;
+    background-color: #db71d2;
     *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFF5813', endColorstr='#FFE94400');
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #ff5813), color-stop(75%, #e94400));
-    background-image: -webkit-linear-gradient(top, #ff5813 50%, #e94400 75%);
-    background-image: -moz-linear-gradient(top, #ff5813 50%, #e94400 75%);
-    background-image: -o-linear-gradient(top, #ff5813 50%, #e94400 75%);
-    background-image: linear-gradient(top, #ff5813 50%, #e94400 75%); }
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDB71D2', endColorstr='#FFD351C8');
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #db71d2), color-stop(75%, #d351c8));
+    background-image: -webkit-linear-gradient(top, #db71d2 50%, #d351c8 75%);
+    background-image: -moz-linear-gradient(top, #db71d2 50%, #d351c8 75%);
+    background-image: -o-linear-gradient(top, #db71d2 50%, #d351c8 75%);
+    background-image: linear-gradient(top, #db71d2 50%, #d351c8 75%); }
   @media screen and (max-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_extends\.scss}line{font-family:\000038}}
     button:nth-child(2), a.button:nth-child(2) {
@@ -398,15 +398,15 @@ button:nth-child(2), a.button:nth-child(2) {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_extends\.scss}line{font-family:\0000312}}
 button:nth-child(3), a.button:nth-child(3), button:nth-child(4), a.button:nth-child(4) {
-  background-color: #ebeeeb;
+  background-color: #fff2e5;
   *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEBEEEB', endColorstr='#FFEBEEEB');
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebeeeb), color-stop(75%, #ebeeeb));
-  background-image: -webkit-linear-gradient(top, #ebeeeb 0%, #ebeeeb 75%);
-  background-image: -moz-linear-gradient(top, #ebeeeb 0%, #ebeeeb 75%);
-  background-image: -o-linear-gradient(top, #ebeeeb 0%, #ebeeeb 75%);
-  background-image: linear-gradient(top, #ebeeeb 0%, #ebeeeb 75%);
-  border: 1px solid #c3cac3;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFF2E5', endColorstr='#FFFFF2E5');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff2e5), color-stop(75%, #fff2e5));
+  background-image: -webkit-linear-gradient(top, #fff2e5 0%, #fff2e5 75%);
+  background-image: -moz-linear-gradient(top, #fff2e5 0%, #fff2e5 75%);
+  background-image: -o-linear-gradient(top, #fff2e5 0%, #fff2e5 75%);
+  background-image: linear-gradient(top, #fff2e5 0%, #fff2e5 75%);
+  border: 1px solid #ffc999;
   color: black;
   line-height: 2.28571em;
   border-radius: 0.14286em;
@@ -414,17 +414,17 @@ button:nth-child(3), a.button:nth-child(3), button:nth-child(4), a.button:nth-ch
   font-size: 0.85714em;
   font-weight: bold;
   border-radius: 2px;
-  color: #424b42; }
+  color: #ff7800; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_mixins\.scss}line{font-family:\0000322}}
   button:hover:nth-child(3), a.button:hover:nth-child(3), button:hover:nth-child(4), a.button:hover:nth-child(4) {
-    background-color: #ebeeeb;
+    background-color: #fff2e5;
     *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEBEEEB', endColorstr='#FFD6DBD6');
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #ebeeeb), color-stop(75%, #d6dbd6));
-    background-image: -webkit-linear-gradient(top, #ebeeeb 50%, #d6dbd6 75%);
-    background-image: -moz-linear-gradient(top, #ebeeeb 50%, #d6dbd6 75%);
-    background-image: -o-linear-gradient(top, #ebeeeb 50%, #d6dbd6 75%);
-    background-image: linear-gradient(top, #ebeeeb 50%, #d6dbd6 75%); }
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFF2E5', endColorstr='#FFFFDCBD');
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #fff2e5), color-stop(75%, #ffdcbd));
+    background-image: -webkit-linear-gradient(top, #fff2e5 50%, #ffdcbd 75%);
+    background-image: -moz-linear-gradient(top, #fff2e5 50%, #ffdcbd 75%);
+    background-image: -o-linear-gradient(top, #fff2e5 50%, #ffdcbd 75%);
+    background-image: linear-gradient(top, #fff2e5 50%, #ffdcbd 75%); }
   @media screen and (max-width: 40em) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/buttons\/_extends\.scss}line{font-family:\0000312}}
     button:nth-child(3), a.button:nth-child(3), button:nth-child(4), a.button:nth-child(4) {
@@ -444,208 +444,1181 @@ button, a.button {
     margin-left: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\000036}}
-body {
-  background: black url(../images/tarot/background.jpg) 0 0 no-repeat;
-  background-size: 1200px auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000310}}
-#tarot-grid {
+section {
   zoom: 1;
   margin: 0 auto;
   width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/stipe\/_mixins\.scss}line{font-family:\00003271}}
-  #tarot-grid:before {
+  section:before {
     content: "\0020";
     display: block;
     height: 0;
     overflow: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/local\/lib\/ruby1\.9\/gems\/1\.9\.1\/gems\/stipe-0\.0\.5\.7\.9\/stylesheets\/stipe\/stipe\/_mixins\.scss}line{font-family:\00003277}}
-  #tarot-grid:after {
+  section:after {
     content: "\0020";
     display: block;
     height: 0;
     overflow: hidden;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000316}}
-#tarot-deck {
-  top: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\000039}}
+#reading {
+  float: left;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
+  width: 22.91667%;
+  border: solid 1px #ff7800;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000315}}
+  #reading h2 {
+    margin: 8px;
+    color: #fdff00; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000319}}
+  #reading p {
+    margin: 8px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000324}}
+#spread {
+  float: left;
+  margin-left: 1.04167%;
+  margin-right: 1.04167%;
+  width: 64.58333%;
+  height: 55em;
+  display: block;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000329}}
+  #spread .deck {
+    position: relative;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000336}}
 #situation {
-  top: 30%;
-  left: 25%; }
+  position: relative;
+  top: 85px;
+  left: 190px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000327}}
-#challenges {
-  top: 30%;
-  left: 25%;
-  background-size: contain;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000340}}
+#challenge {
+  position: relative;
+  top: -60px;
+  left: 190px;
   -moz-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000348}}
 #higher-power {
-  top: 2%;
-  left: 25%; }
+  position: relative;
+  top: -360px;
+  left: 190px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000352}}
 #foundation {
-  top: 57%;
-  left: 25%; }
+  position: relative;
+  top: -190px;
+  left: 190px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000356}}
 #past {
-  top: 25%;
-  left: 12%; }
+  position: relative;
+  top: -490px;
+  left: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000360}}
 #future {
-  top: 25%;
-  left: 37%; }
+  position: relative;
+  top: -630px;
+  left: 330px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000364}}
 #self {
-  top: 78%;
-  left: 50%; }
+  position: relative;
+  top: -530px;
+  left: 440px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000368}}
-#influences {
-  top: 52%;
-  left: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000368}}
+#others {
+  position: relative;
+  top: -820px;
+  left: 440px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000372}}
 #hope-fear {
-  top: 26%;
-  left: 50%; }
+  position: relative;
+  top: -1110px;
+  left: 440px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_design\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_navigation\.scss}line{font-family:\0000375}}
 #outcome {
-  top: 0%;
-  left: 50%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\000031}}
-#global-nav {
   position: relative;
-  width: 100%;
-  background: #424b42; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\000036}}
-  #global-nav ul {
-    clear: both;
-    display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\000039}}
-    #global-nav ul li {
-      display: inline-block;
-      padding: 4px;
-      margin: 0 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000316}}
-  #global-nav .tab-drag {
-    background: #b0bab0;
-    border: dashed 4px #d73f00;
-    display: block;
-    text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000321}}
-    #global-nav .tab-drag p {
-      color: #424b42;
-      padding-top: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000327}}
-  #global-nav .tab-drop {
-    background-color: #c4cbc4;
-    padding: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000332}}
-  #global-nav .tab-placeholder {
-    background: #d73f00;
-    height: auto; }
+  top: -1400px;
+  left: 440px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000339}}
-.parent-nav li:first-child {
-  border-left: 4px solid #1d6b0a; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000343}}
-.parent-nav li {
-  display: inline-block;
-  list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000348}}
-.parent-nav a:link, .parent-nav a:visited {
-  background: #424b42;
-  color: #ebeeeb;
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000356}}
-.parent-nav a:hover, .parent-nav a:active {
-  background: #b0bab0;
-  color: #424b42; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000361}}
-.parent-nav .active a, .parent-nav a.more-active {
-  background: #ebeeeb;
-  border-top: 3px solid #1d6b0a;
-  color: #424b42;
-  padding: 7px 20px 10px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000372}}
-#global-nav .dropdown-menu {
-  background: #fff;
-  display: inline-block;
-  position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000378}}
-#global-nav .dropdown-caret {
-  position: absolute;
-  right: 5px;
-  top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000385}}
-#global-nav .dropdown-menu ul {
-  display: none;
-  position: absolute;
-  width: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000391}}
-#global-nav .dropdown-menu li {
-  border: none;
-  position: relative;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\000039}}
+.card_display_wrapper {
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/navigation\/_extends\.scss}line{font-family:\0000396}}
-  #global-nav .dropdown-menu li a:hover, #global-nav .dropdown-menu li a:active {
-    margin: 0;
-    padding: 10px 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000311}}
+  .card_display_wrapper div {
+    display: inline-block;
+    margin: 2px auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/ui_patterns\/icons\/_extends\.scss}line{font-family:\000031}}
-#global-nav .dropdown-caret {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000317}}
+.card_wrapper {
+  width: 6.250em;
+  height: 10.313em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000323}}
+.deck {
+  background: black url(../images/tarot/deck.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
   display: inline-block;
-  width: 0;
-  height: 0;
-  vertical-align: top;
-  border-top: 4px solid #d8dcd8;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-  content: ""; }
+  width: 100%;
+  height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/ui_patterns\/cards\/_extends\.scss}line{font-family:\000032}}
-#tarot-deck, #situation, #challenges, #higher-power, #foundation, #past, #future, #self, #influences, #hope-fear, #outcome {
-  position: absolute;
-  border-radius: 5px;
-  text-align: center;
-  width: 10%;
-  height: 25%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/ui_patterns\/cards\/_extends\.scss}line{font-family:\000032}}
-#tarot-deck, #situation, #challenges, #higher-power, #foundation, #past, #future, #self, #influences, #hope-fear, #outcome {
-  position: absolute;
-  border-radius: 5px;
-  text-align: center;
-  width: 10%;
-  height: 25%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/ui_patterns\/icons\/_extends\.scss}line{font-family:\000031}}
-#global-nav .dropdown-caret {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000326}}
+.fool {
+  background: black url(../images/tarot/trump/fool.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
   display: inline-block;
-  width: 0;
-  height: 0;
-  vertical-align: top;
-  border-top: 4px solid #d8dcd8;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-  content: ""; }
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000327}}
+.magus {
+  background: black url(../images/tarot/trump/magus.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000328}}
+.priestess {
+  background: black url(../images/tarot/trump/priestess.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000329}}
+.empress {
+  background: black url(../images/tarot/trump/empress.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000330}}
+.emperor {
+  background: black url(../images/tarot/trump/emperor.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000331}}
+.hierophant {
+  background: black url(../images/tarot/trump/hierophant.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000332}}
+.lovers {
+  background: black url(../images/tarot/trump/lovers.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000333}}
+.chariot {
+  background: black url(../images/tarot/trump/chariot.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000334}}
+.strength {
+  background: black url(../images/tarot/trump/strength.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000335}}
+.hermit {
+  background: black url(../images/tarot/trump/hermit.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000336}}
+.wheel {
+  background: black url(../images/tarot/trump/wheel.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000337}}
+.justice {
+  background: black url(../images/tarot/trump/justice.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000338}}
+.hanged_man {
+  background: black url(../images/tarot/trump/hanged_man.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000339}}
+.death {
+  background: black url(../images/tarot/trump/death.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000340}}
+.temperance {
+  background: black url(../images/tarot/trump/temperance.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000341}}
+.devil {
+  background: black url(../images/tarot/trump/devil.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000342}}
+.tower {
+  background: black url(../images/tarot/trump/tower.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000343}}
+.star {
+  background: black url(../images/tarot/trump/star.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000344}}
+.moon {
+  background: black url(../images/tarot/trump/moon.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000345}}
+.sun {
+  background: black url(../images/tarot/trump/sun.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000346}}
+.judgement {
+  background: black url(../images/tarot/trump/judgement.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000347}}
+.universe {
+  background: black url(../images/tarot/trump/universe.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000351}}
+.wands .one {
+  background: black url(../images/tarot/wands/1.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000352}}
+.wands .two {
+  background: black url(../images/tarot/wands/2.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000353}}
+.wands .three {
+  background: black url(../images/tarot/wands/3.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000354}}
+.wands .four {
+  background: black url(../images/tarot/wands/4.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000355}}
+.wands .five {
+  background: black url(../images/tarot/wands/5.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000356}}
+.wands .six {
+  background: black url(../images/tarot/wands/6.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000357}}
+.wands .seven {
+  background: black url(../images/tarot/wands/7.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000358}}
+.wands .eight {
+  background: black url(../images/tarot/wands/8.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000359}}
+.wands .nine {
+  background: black url(../images/tarot/wands/9.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000360}}
+.wands .ten {
+  background: black url(../images/tarot/wands/10.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000361}}
+.wands .page {
+  background: black url(../images/tarot/wands/page.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000362}}
+.wands .knight {
+  background: black url(../images/tarot/wands/knight.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000363}}
+.wands .queen {
+  background: black url(../images/tarot/wands/queen.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000364}}
+.wands .king {
+  background: black url(../images/tarot/wands/king.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000369}}
+.swords .one {
+  background: black url(../images/tarot/swords/1.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000370}}
+.swords .two {
+  background: black url(../images/tarot/swords/2.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000371}}
+.swords .three {
+  background: black url(../images/tarot/swords/3.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000372}}
+.swords .four {
+  background: black url(../images/tarot/swords/4.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000373}}
+.swords .five {
+  background: black url(../images/tarot/swords/5.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000374}}
+.swords .six {
+  background: black url(../images/tarot/swords/6.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000375}}
+.swords .seven {
+  background: black url(../images/tarot/swords/7.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000376}}
+.swords .eight {
+  background: black url(../images/tarot/swords/8.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000377}}
+.swords .nine {
+  background: black url(../images/tarot/swords/9.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000378}}
+.swords .ten {
+  background: black url(../images/tarot/swords/10.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000379}}
+.swords .page {
+  background: black url(../images/tarot/swords/page.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000380}}
+.swords .knight {
+  background: black url(../images/tarot/swords/knight.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000381}}
+.swords .queen {
+  background: black url(../images/tarot/swords/queen.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000387}}
+.cups .one {
+  background: black url(../images/tarot/cups/1.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000388}}
+.cups .two {
+  background: black url(../images/tarot/cups/2.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000389}}
+.cups .three {
+  background: black url(../images/tarot/cups/3.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000390}}
+.cups .four {
+  background: black url(../images/tarot/cups/4.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000391}}
+.cups .five {
+  background: black url(../images/tarot/cups/5.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000392}}
+.cups .six {
+  background: black url(../images/tarot/cups/6.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000393}}
+.cups .seven {
+  background: black url(../images/tarot/cups/7.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000394}}
+.cups .eight {
+  background: black url(../images/tarot/cups/8.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000395}}
+.cups .nine {
+  background: black url(../images/tarot/cups/9.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000396}}
+.cups .ten {
+  background: black url(../images/tarot/cups/10.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000397}}
+.cups .page {
+  background: black url(../images/tarot/cups/page.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000398}}
+.cups .knight {
+  background: black url(../images/tarot/cups/knight.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\0000399}}
+.cups .queen {
+  background: black url(../images/tarot/cups/queen.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003100}}
+.cups .king {
+  background: black url(../images/tarot/cups/king.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003105}}
+.coins .one {
+  background: black url(../images/tarot/coins/1.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003106}}
+.coins .two {
+  background: black url(../images/tarot/coins/2.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003107}}
+.coins .three {
+  background: black url(../images/tarot/coins/3.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003108}}
+.coins .four {
+  background: black url(../images/tarot/coins/4.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003109}}
+.coins .five {
+  background: black url(../images/tarot/coins/5.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003110}}
+.coins .six {
+  background: black url(../images/tarot/coins/6.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003111}}
+.coins .seven {
+  background: black url(../images/tarot/coins/7.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003112}}
+.coins .eight {
+  background: black url(../images/tarot/coins/8.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003113}}
+.coins .nine {
+  background: black url(../images/tarot/coins/9.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003114}}
+.coins .ten {
+  background: black url(../images/tarot/coins/10.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003115}}
+.coins .page {
+  background: black url(../images/tarot/coins/page.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003116}}
+.coins .knight {
+  background: black url(../images/tarot/coins/knight.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003117}}
+.coins .queen {
+  background: black url(../images/tarot/coins/queen.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/_cards\.scss}line{font-family:\00003118}}
+.coins .king {
+  background: black url(../images/tarot/wands/king.gif) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100% auto;
+  /* Opera needs x AND y values, or no background! */
+  -webkit-background-size: 100%;
+  -khtml-background-size: 100%;
+  border: solid 1px #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/ui_patterns\/backgrounds\/_background_pattern\.scss}line{font-family:\000037}}
+body {
+  background: url(../images/tarot/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/modules\/login_module\/_login_module\.scss}line{font-family:\000037}}
 #login-area {
@@ -721,7 +1694,7 @@ body {
     width: 100%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/avacollins\/src\/toadstool\/sass\/modules\/login_module\/_login_module\.scss}line{font-family:\0000363}}
   #login-feeds li {
-    color: #a90022;
+    color: #ea0606;
     font-size: 1.5em;
     font-weight: bold;
     padding: 8px 0; }
