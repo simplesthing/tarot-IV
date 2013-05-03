@@ -3,4 +3,4 @@ var connect = require('connect'),
 
 connect()
 	.use(connect.static('public'))
-	.listen(3001);
+	.listen(3000);

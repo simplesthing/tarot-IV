@@ -3,95 +3,70 @@ var tarot = angular.module("tarot", []);
 
 tarot.controller("tarotController", function($scope, $http){
 	$http.get('js/model/deck.js').success(function(data){
-		//controller holds the model
-		//set 'dot' model from http GET->routes/tabs to
-    	//prevent children from overwriting properties to their
-    	//own scope when they should be writing back to global model
-		$scope.model = {};
-		$scope.model.deck = data;
-		$scope.selected = [];
+		console.log(data);
+		$scope.model = data;
+	});
 
-		$scope.select = function(card){
-			$scope.selected.push(card);
-			if($scope.selected.length <10 ){
-				
-			} 
-			console.log($scope.selected);
+	$scope.card_count = 0;
+	$scope.draw = function(){
+		$scope.card =  Math.floor((Math.random() * 77)+1);
+		
+		if($scope.card_count < 10 ){
+			switch($scope.card_count){
+                case 0:
+                	$('#situation img').attr('src', $scope.model.cards[$scope.card].image);
+                  	break;
+                case 1:
+                    $('#challenge img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 2:
+                  	$('#power img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 3:
+              		$('#foundation img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 4:
+               		$('#past img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 5:
+             		$('#future img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 6:
+                   	$('#self img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 7:
+                   $('#influences img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 8:
+                   $('#hope img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+                case 9:
+                   $('#outcome img').attr('src', $scope.model.cards[$scope.card].image);
+                    break;
+            }
+			
+			console.log($scope.model.cards.length);
+            $scope.model.cards.splice($scope.card, 1);
+            console.log($scope.model.cards.length);
+            
+            $scope.card_count++;
 		}
+
+
+
+	}
 });
 
 tarot.directive("deck", function(){
 	return {
 		restrict:"E",
 		templateUrl:'./js/partials/deck.html'
-	}
+		}
 });
 
-tarot.directive("situation", function(){
+tarot.directive("spread", function(){
 	return {
-		restrict:"E",
-		templateUrl:'./js/partials/situation.html'
-	}
-});
-
-tarot.directive("challenge", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/challenge.html'
-	}
-});
-
-tarot.directive("power", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/power.html'
-	}
-});
-
-tarot.directive("foundation", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/foundation.html'
-	}
-});
-
-tarot.directive("past", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/past.html'
-	}
-});
-
-tarot.directive("future", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/future.html'
-	}
-});
-
-tarot.directive("self", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/self.html'
-	}
-});
-
-tarot.directive("influences", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/influences.html'
-	}
-});
-tarot.directive("hope", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/hope.html'
-	}
-});
-
-tarot.directive("outcome", function(){
-	return {
-		restrict:"E",
-		templateUrl:'./js/partials/outcome.html'
+		restrict:"E",	
+		templateUrl:'../js/partials/spread.html'
 	}
 });
