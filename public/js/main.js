@@ -15,6 +15,7 @@ tarot.controller("tarotController", function($scope, $http){
 			switch($scope.card_count){
                 case 0:
                 	$('#situation img').attr('src', $scope.model.cards[$scope.card].image);
+                	$('#reading').prepend($('<dd/>').html($scope.model.cards[$$scope.card].image));
                   	break;
                 case 1:
                     $('#challenge img').attr('src', $scope.model.cards[$scope.card].image);
@@ -44,16 +45,11 @@ tarot.controller("tarotController", function($scope, $http){
                    $('#outcome img').attr('src', $scope.model.cards[$scope.card].image);
                     break;
             }
-			
-			console.log($scope.model.cards.length);
+
             $scope.model.cards.splice($scope.card, 1);
-            console.log($scope.model.cards.length);
             
             $scope.card_count++;
 		}
-
-
-
 	}
 });
 
@@ -67,6 +63,13 @@ tarot.directive("deck", function(){
 tarot.directive("spread", function(){
 	return {
 		restrict:"E",	
-		templateUrl:'../js/partials/spread.html'
+		templateUrl:'./js/partials/spread.html'
 	}
 });
+
+tarot.directive("reading", function(){
+	return {
+		restrict:"E",
+		templateUrl: '.js/partials/reading.html'
+	}
+})
