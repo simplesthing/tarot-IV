@@ -56,20 +56,20 @@ tarot.controller("tarotController", function($scope, $http){
 tarot.directive("deck", function(){
 	return {
 		restrict:"E",
-		templateUrl:'./js/partials/deck.html'
+		templateUrl:'js/partials/deck.html'
 		}
 });
 
 tarot.directive("spread", function(){
 	return {
 		restrict:"E",	
-		templateUrl:'./js/partials/spread.html'
+		templateUrl:'js/partials/spread.html'
 	}
 });
 
 tarot.directive("reading", function(){
 	return {
 		restrict:"E",
-		templateUrl: '.js/partials/reading.html'
+		templateUrl: 'js/partials/reading.html'
 	}
 })
