@@ -4,45 +4,70 @@ var tarot = angular.module("tarot", []);
 tarot.controller("tarotController", function($scope, $http){
 	$http.get('js/model/deck.js').success(function(data){
 		console.log(data);
-		$scope.model = data;
+		$scope.model = {};
+    $scope.model.cards = data.cards;
 	});
 
 	$scope.card_count = 0;
+  $scope.updateSpread = function(dfd, id ){
+      $('#'+ id +' img').attr('src', $scope.model.cards[$scope.card].image);
+      $('#reading').prepend($('<dt/>').html(id));
+      dfd.resolve();
+  }
 	$scope.draw = function(){
 		$scope.card =  Math.floor((Math.random() * 77)+1);
 		
 		if($scope.card_count < 10 ){
 			switch($scope.card_count){
                 case 0:
-                	$('#situation img').attr('src', $scope.model.cards[$scope.card].image);
-                	$('#reading').prepend($('<dd/>').html($scope.model.cards[$$scope.card].image));
+                    var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].situation));
+                    dfd.done($scope.updateSpread(dfd, 'situation'));
                   	break;
                 case 1:
-                    $('#challenge img').attr('src', $scope.model.cards[$scope.card].image);
+                var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].challenge));
+                    dfd.done($scope.updateSpread(dfd, 'challenge'));
                     break;
                 case 2:
-                  	$('#power img').attr('src', $scope.model.cards[$scope.card].image);
+                  var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].power));
+                    dfd.done($scope.updateSpread(dfd, 'power'));
                     break;
                 case 3:
-              		$('#foundation img').attr('src', $scope.model.cards[$scope.card].image);
+              		var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].foundation));
+                    dfd.done($scope.updateSpread(dfd, 'foundation'));
                     break;
                 case 4:
-               		$('#past img').attr('src', $scope.model.cards[$scope.card].image);
+               	var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].past));
+                    dfd.done($scope.updateSpread(dfd, 'past'));
                     break;
                 case 5:
-             		$('#future img').attr('src', $scope.model.cards[$scope.card].image);
+             		var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].future));
+                    dfd.done($scope.updateSpread(dfd, 'future'));
                     break;
                 case 6:
-                   	$('#self img').attr('src', $scope.model.cards[$scope.card].image);
+                   var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].self));
+                    dfd.done($scope.updateSpread(dfd, 'self'));
                     break;
                 case 7:
-                   $('#influences img').attr('src', $scope.model.cards[$scope.card].image);
+                  var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].influences));
+                    dfd.done($scope.updateSpread(dfd, 'influences'));
                     break;
                 case 8:
-                   $('#hope img').attr('src', $scope.model.cards[$scope.card].image);
+                   var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].hope));
+                    dfd.done($scope.updateSpread(dfd, 'hope'));
                     break;
                 case 9:
-                   $('#outcome img').attr('src', $scope.model.cards[$scope.card].image);
+                   var dfd = $.Deferred();
+                    $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.card].outcome));
+                    dfd.done($scope.updateSpread(dfd, 'outcome'));
                     break;
             }
 
