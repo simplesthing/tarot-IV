@@ -1,78 +1,97 @@
 
 var tarot = angular.module("tarot", []);
 
+tarot.controller("tarotController", function($scope, $http){
+	$http.get('js/model/deck.js').success(function(data){
+		//controller holds the model
+		//set 'dot' model from http GET->routes/tabs to
+    	//prevent children from overwriting properties to their
+    	//own scope when they should be writing back to global model
+		$scope.model = {};
+		$scope.model.deck = data;
+		$scope.selected = [];
+
+		$scope.select = function(card){
+			$scope.selected.push(card);
+			if($scope.selected.length <10 ){
+				
+			} 
+			console.log($scope.selected);
+		}
+});
+
 tarot.directive("deck", function(){
 	return {
 		restrict:"E",
-		template:'<div id="deck" class="card_wrapper"><span class="deck">hi</span></div>'
+		templateUrl:'./js/partials/deck.html'
 	}
 });
 
 tarot.directive("situation", function(){
 	return {
 		restrict:"E",
-		template:'<div id="situation" class="card_wrapper coins"><span class="one"></span></div>'
+		templateUrl:'./js/partials/situation.html'
 	}
 });
 
 tarot.directive("challenge", function(){
 	return {
 		restrict:"E",
-		template:'<div id="challenge" class="card_wrapper wands"><span class="one"></span></div>'
+		templateUrl:'./js/partials/challenge.html'
 	}
 });
 
 tarot.directive("power", function(){
 	return {
 		restrict:"E",
-		template:'<div id="higher-power" class="card_wrapper cups"><span class="one"></span></div>'
+		templateUrl:'./js/partials/power.html'
 	}
 });
 
 tarot.directive("foundation", function(){
 	return {
 		restrict:"E",
-		template:'<div id="foundation" class="card_wrapper cups"><span class="ten"></span></div>'
+		templateUrl:'./js/partials/foundation.html'
 	}
 });
 
 tarot.directive("past", function(){
 	return {
 		restrict:"E",
-		template:'<div id="past" class="card_wrapper coins"><span class="one"></span></div>'
+		templateUrl:'./js/partials/past.html'
 	}
 });
 
 tarot.directive("future", function(){
 	return {
 		restrict:"E",
-		template:'<div id="future" class="card_wrapper wands"><span class="one"></span></div>'
+		templateUrl:'./js/partials/future.html'
 	}
 });
 
 tarot.directive("self", function(){
 	return {
 		restrict:"E",
-		template:'<div id="self" class="card_wrapper cups"><span class="one"></span></div>'
+		templateUrl:'./js/partials/self.html'
 	}
 });
 
-tarot.directive("others", function(){
+tarot.directive("influences", function(){
 	return {
 		restrict:"E",
-		template:'<div id="others" class="card_wrapper cups"><span class="ten"></span></div>'
+		templateUrl:'./js/partials/influences.html'
 	}
 });
 tarot.directive("hope", function(){
 	return {
 		restrict:"E",
-		template:'<div id="hope-fear" class="card_wrapper cups"><span class="one"></span></div>'
+		templateUrl:'./js/partials/hope.html'
 	}
 });
 
 tarot.directive("outcome", function(){
 	return {
 		restrict:"E",
-		template:'<div id="outcome" class="card_wrapper cups"><span class="ten"></span></div>'
+		templateUrl:'./js/partials/outcome.html'
 	}
 });
