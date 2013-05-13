@@ -52,6 +52,7 @@ tarot.controller("tarotController", function($scope, $http){
       case 6:
       var dfd = $.Deferred();
       $('#reading').prepend($('<dd/>').html($scope.model.cards[$scope.model.card].self).addClass('active'));
+      dfd.done($scope.updateSpread(dfd, 'self'));
       break;
       case 7:
       var dfd = $.Deferred();
