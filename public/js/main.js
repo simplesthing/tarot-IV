@@ -5,9 +5,9 @@ tarot.controller("tarotController", function($scope, $http){
 	$http.get('js/model/deck.js').success(function(data){
 		$scope.model = {};
     $scope.model.cards = data.cards;
+    $scope.model.card_count = 0;
   });
-
-	$scope.model.card_count = 0;
+	
   $scope.updateSpread = function(dfd, id ){
     $('#'+ id +' img').attr('src', $scope.model.cards[$scope.model.card].image);
     $('#reading').prepend($('<dt/>').html(id));
